@@ -115,11 +115,23 @@ def send_signal_to_telegram(signals):
             f"📊 *Key Indicators:*\n{indicators_text}"
         )
 
+        # ✅ Inline buttons
+        buttons = {
+            "inline_keyboard": [
+                [
+                    {"text": "Acknowledge ✅", "callback_data": f"ack_{sig['symbol']}"},
+                    {"text": "Generate New Signal 🔄", "callback_data": f"new_{sig['symbol']}"}
+                ]
+            ]
+        }
+
         safe_get(TELEGRAM_API_URL, {
             "chat_id": CHAT_ID,
             "text": message,
-            "parse_mode": "Markdown"
+            "parse_mode": "Markdown",
+            "reply_markup": json.dumps(buttons)
         })
+
 
 def send_daily_summary():
     """Send a daily summary report to Telegram."""
