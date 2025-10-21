@@ -1,9 +1,9 @@
-# crypto_futures_bot_pro.py
+# SpotSignalBot_Pro.py
 import requests
 import pandas as pd
 from datetime import datetime, timedelta, timezone
-import os
 import time
+import os
 from dotenv import load_dotenv
 
 # ---------------- CONFIG ----------------
@@ -11,14 +11,18 @@ load_dotenv()
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
-SYMBOLS = ["BTC","ETH","DOGE"]
+SYMBOLS = ["ETH"]
 VS_CURRENCY = "USD"
-LIMIT = 100  # fetch enough candles
-SLEEP_SECONDS = 300  # 5 minutes
+LIMIT = 100  # hourly candles
+SLEEP_SECONDS = 60  # check every minute
 
-LEVERAGE = {"BTC":10, "ETH":20, "DOGE":5}
+# Risk & Portfolio
+PORTFOLIO_USD = 25
 RISK_PERCENT = 0.02
-PORTFOLIO_USD = 1000
+POSITION_PERCENT = 1/3  # partial TP sizes
+
+# Fees
+SPOT_FEE_RATE = 0.001  # 0.1% per trade (Entry + Exit)
 
 # ---------------- TELEGRAM ----------------
 def send_telegram_message(text: str):
@@ -97,115 +101,126 @@ def find_signal_candle(df):
     last = df.iloc[-1]
     pattern = detect_pattern_from_df(df)
 
-    # ---------------- Multi-Timeframe Logic ----------------
-    # Main timeframe: last hour, trend timeframe: last 4 hours
-    # Here simplified by checking EMA50 vs EMA200 + MACD + RSI thresholds
-    if last["EMA50"] > last["EMA200"] and last["MACD_HIST"] > 0 and last["RSI14"] < 70:
-        return last, "STRONG_BUY", pattern
-    elif last["EMA50"] < last["EMA200"] and last["MACD_HIST"] < 0 and last["RSI14"] > 30:
-        return last, "STRONG_SELL", pattern
-    elif pattern and pattern.startswith("🟢"):
-        return last, "WEAK_BUY", pattern
-    elif pattern and pattern.startswith("🔴"):
-        return last, "WEAK_SELL", pattern
-    else:
-        return last, "HOLD", None
+    confidence = 0
+    if last["EMA50"] > last["EMA200"]: confidence += 25
+    if last["MACD_HIST"] > 0: confidence += 25
+    if last["RSI14"] < 70: confidence += 20
+    if pattern and pattern.startswith("🟢"): confidence += 20
+    confidence = min(confidence, 100)
 
-# ---------------- RISK & POSITION ----------------
-def calculate_position(entry, sl, leverage):
-    risk_amount = PORTFOLIO_USD * RISK_PERCENT
-    position_size = risk_amount * leverage / max(abs(entry-sl),1e-8)
-    return position_size
+    if last["EMA50"] > last["EMA200"] and last["MACD_HIST"] > 0 and last["RSI14"] < 70:
+        return last, "STRONG_BUY", pattern, confidence
+    elif last["EMA50"] < last["EMA200"] and last["MACD_HIST"] < 0 and last["RSI14"] > 30:
+        return last, "STRONG_SELL", pattern, confidence
+    elif pattern and pattern.startswith("🟢"):
+        return last, "WEAK_BUY", pattern, confidence
+    elif pattern and pattern.startswith("🔴"):
+        return last, "WEAK_SELL", pattern, confidence
+    else:
+        return last, "HOLD", None, confidence
 
 # ---------------- TRADE PLAN ----------------
 def generate_plan(df, symbol):
-    candle, signal, pattern = find_signal_candle(df)
-    lev = LEVERAGE.get(symbol,1)
+    candle, signal, pattern, confidence = find_signal_candle(df)
+    if signal == "HOLD":
+        return None  # Skip non-actionable signals
+
     atr_val = atr(df).iloc[-1]
     entry_price = float(candle["close"])
+    risk_amount = PORTFOLIO_USD * RISK_PERCENT
 
     if signal in ["STRONG_BUY","WEAK_BUY"]:
-        sl = entry_price - 1.5*atr_val*lev
-        tp = entry_price + 3*atr_val*lev
+        sl = entry_price - 1.5*atr_val
+        tp1 = entry_price + 1*atr_val
+        tp2 = entry_price + 2*atr_val
+        tp3 = entry_price + 3*atr_val
         direction = "LONG ✅"
         strength = "🚀 STRONG BUY" if signal=="STRONG_BUY" else "⚡ Weak BUY"
-    elif signal in ["STRONG_SELL","WEAK_SELL"]:
-        sl = entry_price + 1.5*atr_val*lev
-        tp = entry_price - 3*atr_val*lev
+    else:
+        sl = entry_price + 1.5*atr_val
+        tp1 = entry_price - 1*atr_val
+        tp2 = entry_price - 2*atr_val
+        tp3 = entry_price - 3*atr_val
         direction = "SHORT ⛔"
         strength = "🔻 STRONG SELL" if signal=="STRONG_SELL" else "⚡ Weak SELL"
-    else:
-        sl = entry_price * 0.995
-        tp = entry_price * 1.005
-        direction = "NONE"
-        strength = "⚪ HOLD"
 
-    position_size = calculate_position(entry_price, sl, lev)
+    pos1 = pos2 = pos3 = risk_amount / abs(entry_price - sl) * POSITION_PERCENT
+
     entry_time = (candle["time"] + timedelta(hours=1)).strftime("%Y-%m-%d %H:%M:%S")
-
     return {
-        "signal": signal, "strength": strength, "direction": direction, "pattern": pattern,
-        "entry_time": entry_time, "entry_price": entry_price, "sl": sl, "tp": tp,
-        "position_size": position_size,
+        "signal": signal,
+        "strength": strength,
+        "confidence": confidence,
+        "direction": direction,
+        "pattern": pattern,
+        "entry_time": entry_time,
+        "entry_price": entry_price,
+        "sl": sl,
+        "tp1": tp1,
+        "tp2": tp2,
+        "tp3": tp3,
+        "pos1": pos1,
+        "pos2": pos2,
+        "pos3": pos3,
         "ohlc": {"open":float(candle["open"]), "high":float(candle["high"]),
                  "low":float(candle["low"]), "close":float(candle["close"])}
     }
 
+# ---------------- CALC PROFIT WITH FEES ----------------
+def calc_net_profit(entry, tp, size, fee_rate=SPOT_FEE_RATE):
+    gross_profit = (tp - entry) * size
+    total_fee = (entry + tp) * size * fee_rate
+    net_profit = gross_profit - total_fee
+    return net_profit
+
+# ---------------- COUNTDOWN ----------------
+def get_countdown(next_candle):
+    jakarta_tz = timezone(timedelta(hours=7))
+    now_jakarta = datetime.now(jakarta_tz)
+    delta = next_candle - now_jakarta
+    total_seconds = max(int(delta.total_seconds()), 0)
+    minutes, seconds = divmod(total_seconds, 60)
+    return f"{minutes}m {seconds}s"
+
 # ---------------- FORMAT MESSAGE ----------------
 def format_trade_message(symbol, plan):
     def fmt(val): return f"{val:.8f}" if val < 1 else f"{val:.4f}"
-
-    # UTC -> Jakarta timezone
-    next_candle_utc = pd.to_datetime(plan['entry_time']).replace(tzinfo=timezone.utc)
     jakarta_tz = timezone(timedelta(hours=7))
+    next_candle_utc = datetime.strptime(plan['entry_time'], "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
     next_candle_jakarta = next_candle_utc.astimezone(jakarta_tz)
+    countdown = get_countdown(next_candle_jakarta)
 
-    now_jakarta = datetime.now(jakarta_tz)
-    delta = next_candle_jakarta - now_jakarta
-    minutes, seconds = divmod(int(delta.total_seconds()), 60)
-    countdown = f"{minutes}m {seconds}s" if delta.total_seconds() > 0 else "0m 0s"
-
-    if "BUY" in plan["strength"]: signal_emoji="🟢"
-    elif "SELL" in plan["strength"]: signal_emoji="🔴"
-    else: signal_emoji="⚪"
-
-    msg = f"{signal_emoji} *{symbol} ({VS_CURRENCY}) Analysis*\n"
+    msg = f"{plan['strength']} *{symbol} ({VS_CURRENCY}) Analysis*\n"
     msg += f"🕐 Next Candle Entry: {next_candle_jakarta.strftime('%Y-%m-%d %H:%M:%S')} (UTC+07:00)\n"
     msg += f"⏳ Time until next candle: {countdown}\n"
-    msg += f"💰 Open: {fmt(plan['ohlc']['open'])}\n"
-    msg += f"📈 High: {fmt(plan['ohlc']['high'])}\n"
-    msg += f"📉 Low: {fmt(plan['ohlc']['low'])}\n"
-    msg += f"🔚 Close: {fmt(plan['ohlc']['close'])}\n\n"
+    msg += f"💰 Open: {plan['ohlc']['open']:.4f}\n"
+    msg += f"📈 High: {plan['ohlc']['high']:.4f}\n"
+    msg += f"📉 Low: {plan['ohlc']['low']:.4f}\n"
+    msg += f"🔚 Close: {plan['ohlc']['close']:.4f}\n\n"
     msg += f"📘 Pattern: {plan['pattern'] or 'None'}\n"
-    msg += f"📊 Signal: {plan['strength']}\n"
+    msg += f"📊 Signal: {plan['strength']} ({plan['confidence']}% confidence)\n"
     msg += f"📍 Direction: {plan['direction']}\n\n"
-    msg += f"💰 Entry: {fmt(plan['entry_price'])}\n"
-    msg += f"🛑 Stop Loss: {fmt(plan['sl'])}\n"
-    msg += f"🎯 Take Profit: {fmt(plan['tp'])}\n"
-    msg += f"💵 Position Size: {plan['position_size']:.4f} units"
+    msg += f"💰 Entry: {plan['entry_price']:.4f}\n"
+    msg += f"🛑 Stop Loss: {plan['sl']:.4f}\n"
+    msg += f"🎯 Take Profit 1: {plan['tp1']:.4f} ({plan['pos1']:.4f} units, Net Profit: ${calc_net_profit(plan['entry_price'], plan['tp1'], plan['pos1']):.2f})\n"
+    msg += f"🎯 Take Profit 2: {plan['tp2']:.4f} ({plan['pos2']:.4f} units, Net Profit: ${calc_net_profit(plan['entry_price'], plan['tp2'], plan['pos2']):.2f})\n"
+    msg += f"🎯 Take Profit 3: {plan['tp3']:.4f} ({plan['pos3']:.4f} units, Net Profit: ${calc_net_profit(plan['entry_price'], plan['tp3'], plan['pos3']):.2f})\n"
     return msg
 
-# ---------------- RUN ALL SYMBOLS ----------------
-def run_all_symbols():
-    full_message = ""
-    for s in SYMBOLS:
-        try:
-            df = get_ohlc(s, limit=LIMIT)
-        except Exception as e:
-            full_message += f"\n\n❌ Error fetching data for {s}: {e}"
-            continue
-        if df is None or df.empty:
-            full_message += f"\n\n⚠️ No data for {s}"
-            continue
-        plan = generate_plan(df, s)
-        msg = format_trade_message(s, plan)
-        full_message += msg + "\n\n" + "—"*30
-    if full_message:
-        print(full_message)
-        send_telegram_message(full_message)
-
 # ---------------- MAIN LOOP ----------------
-if __name__ == "__main__":
+def main():
     while True:
-        run_all_symbols()
+        for symbol in SYMBOLS:
+            try:
+                df = get_ohlc(symbol, LIMIT)
+                plan = generate_plan(df, symbol)
+                if plan:
+                    msg = format_trade_message(symbol, plan)
+                    send_telegram_message(msg)
+                    print(f"Sent signal for {symbol}")
+            except Exception as e:
+                print(f"❌ Error fetching data for {symbol}: {e}")
         time.sleep(SLEEP_SECONDS)
+
+if __name__ == "__main__":
+    main()
