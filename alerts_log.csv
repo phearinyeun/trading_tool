@@ -1,0 +1,94 @@
+timestamp,symbol,coin,price,decision,reason
+2025-10-23 20:06:06,ETHUSDT,ethereum,3844.31,HOLD,Sideways market.
+2025-10-23 20:06:13,DOGEUSDT,dogecoin,0.193348,HOLD,Sideways market.
+2025-10-23 20:16:14,ETHUSDT,ethereum,3843.38,HOLD,Sideways market.
+2025-10-23 20:16:22,DOGEUSDT,dogecoin,0.193397,HOLD,Sideways market.
+2025-10-23 20:27:33,ETHUSDT,ethereum,3845.99,HOLD,Sideways market.
+2025-10-23 20:27:41,DOGEUSDT,dogecoin,0.193582,BUY,Strong uptrend (TA + 24h growth)
+2025-10-23 20:39:19,ETHUSDT,ethereum,3862.96,HOLD,TA + NONE + AI HOLD,0,0
+2025-10-23 20:39:32,DOGEUSDT,dogecoin,0.194425,HOLD,TA + NONE + AI HOLD,0,0
+2025-10-23 21:03:55,ETHUSDT,ethereum,3849.23,HOLD,Sideways market.
+2025-10-23 21:04:01,DOGEUSDT,dogecoin,0.194165,BUY,Strong uptrend (TA + 24h growth)
+2025-10-23 21:04:09,ETHUSDT,ethereum,3849.23,SELL,Multi-timeframe signals + pattern NONE,0.9999999999999971,False,False
+2025-10-23 21:04:18,DOGEUSDT,dogecoin,0.194165,HOLD,Multi-timeframe signals + pattern NONE,0,False,False
+2025-10-23 21:06:02,ETHUSDT,ethereum,3847.51,SELL,Multi-timeframe signals + pattern NONE,1.0000000000000029,False,False
+2025-10-23 21:06:11,DOGEUSDT,dogecoin,0.19414,HOLD,Multi-timeframe signals + pattern NONE,0,False,False
+2025-10-23 21:09:40,DOGEUSDT,dogecoin,0.193844,HOLD,Sideways market.
+2025-10-23 21:11:18,ETHUSDT,ethereum,3830.74,HOLD,Multi-timeframe signals + pattern NONE,0,False,False
+2025-10-23 21:18:50,ETHUSDT,ethereum,3816.71,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:19:17,DOGEUSDT,dogecoin,0.193394,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:24:20,ETHUSDT,ethereum,3823.58,HOLD,"MultiTF ['STRONG_SELL', 'STRONG_SELL', 'SELL'] + pattern NONE",0.000000,False,False
+2025-10-23 21:24:23,DOGEUSDT,dogecoin,0.193342,HOLD,"MultiTF ['BUY', 'SELL', 'STRONG_SELL'] + pattern NONE",0.000000,False,False
+2025-10-23 21:26:03,ETHUSDT,ethereum,3829.37,HOLD,"MultiTF ['STRONG_SELL', 'STRONG_SELL', 'SELL'] + pattern NONE",0.000000,False,False
+2025-10-23 21:26:05,DOGEUSDT,dogecoin,0.193462,HOLD,"MultiTF ['NEUTRAL', 'SELL', 'STRONG_SELL'] + pattern NONE",0.000000,False,False
+2025-10-23 21:27:29,ETHUSDT,ethereum,3832.95,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:27:56,DOGEUSDT,dogecoin,0.193567,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:28:34,ETHUSDT,ethereum,3833.82,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:29:03,DOGEUSDT,dogecoin,0.193622,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:31:00,ETHUSDT,ethereum,3831.87,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:31:27,DOGEUSDT,dogecoin,0.193607,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:33:24,ETHUSDT,ethereum,3830.51,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:33:51,DOGEUSDT,dogecoin,0.193806,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:36:01,ETHUSDT,ethereum,3832.58,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:36:37,DOGEUSDT,dogecoin,0.193911,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:38:37,ETHUSDT,ethereum,3846.03,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 21:40:47,ETHUSDT,ethereum,3848.24,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:41:15,DOGEUSDT,dogecoin,0.194425,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 21:43:11,ETHUSDT,ethereum,3843.9,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:43:38,DOGEUSDT,dogecoin,0.194382,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:45:35,ETHUSDT,ethereum,3840.52,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bearish sequence",0.000000,False,False
+2025-10-23 21:46:02,DOGEUSDT,dogecoin,0.194343,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:47:58,ETHUSDT,ethereum,3839.34,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:48:26,DOGEUSDT,dogecoin,0.194404,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:50:23,ETHUSDT,ethereum,3845.53,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 21:50:50,DOGEUSDT,dogecoin,0.194503,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:52:47,ETHUSDT,ethereum,3844.37,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:53:14,DOGEUSDT,dogecoin,0.194425,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:55:10,ETHUSDT,ethereum,3842.34,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:55:37,DOGEUSDT,dogecoin,0.194239,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bearish sequence",0.000000,False,False
+2025-10-23 21:57:35,ETHUSDT,ethereum,3839.34,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 21:58:03,DOGEUSDT,dogecoin,0.194265,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:00:00,ETHUSDT,ethereum,3841.01,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:00:31,DOGEUSDT,dogecoin,0.194319,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:02:29,ETHUSDT,ethereum,3848.05,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:02:57,DOGEUSDT,dogecoin,0.194394,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:04:54,ETHUSDT,ethereum,3846.83,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:05:21,DOGEUSDT,dogecoin,0.194329,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:07:17,ETHUSDT,ethereum,3847.37,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:07:44,DOGEUSDT,dogecoin,0.194358,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:09:41,ETHUSDT,ethereum,3851.07,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:10:08,DOGEUSDT,dogecoin,0.194578,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:12:04,ETHUSDT,ethereum,3855.2,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:12:31,DOGEUSDT,dogecoin,0.194843,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:14:28,ETHUSDT,ethereum,3872.25,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:14:55,DOGEUSDT,dogecoin,0.19515,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:16:51,ETHUSDT,ethereum,3866.11,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 22:17:18,DOGEUSDT,dogecoin,0.195308,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:19:15,ETHUSDT,ethereum,3863.02,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:19:42,DOGEUSDT,dogecoin,0.195157,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:21:39,ETHUSDT,ethereum,3854.27,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bearish sequence",0.000000,False,False
+2025-10-23 22:22:05,DOGEUSDT,dogecoin,0.194924,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bearish sequence",0.000000,False,False
+2025-10-23 22:24:03,ETHUSDT,ethereum,3852.14,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:24:30,DOGEUSDT,dogecoin,0.194755,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bearish sequence",0.000000,False,False
+2025-10-23 22:26:27,ETHUSDT,ethereum,3854.51,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:26:54,DOGEUSDT,dogecoin,0.19484,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:28:50,ETHUSDT,ethereum,3854.99,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:29:18,DOGEUSDT,dogecoin,0.194772,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:31:15,ETHUSDT,ethereum,3858.11,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:31:43,DOGEUSDT,dogecoin,0.195031,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 22:33:41,ETHUSDT,ethereum,3865.46,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:34:08,DOGEUSDT,dogecoin,0.195259,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:36:07,ETHUSDT,ethereum,3872.26,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:36:33,DOGEUSDT,dogecoin,0.195605,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:38:30,ETHUSDT,ethereum,3877.32,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bullish sequence",0.000000,False,False
+2025-10-23 22:38:57,DOGEUSDT,dogecoin,0.19555,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:40:54,ETHUSDT,ethereum,3870.82,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 22:41:21,DOGEUSDT,dogecoin,0.19546,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:43:17,ETHUSDT,ethereum,3872.78,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:43:44,DOGEUSDT,dogecoin,0.19546,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:45:41,ETHUSDT,ethereum,3873.35,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:46:07,DOGEUSDT,dogecoin,0.195304,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:48:04,ETHUSDT,ethereum,3863.42,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 22:48:31,DOGEUSDT,dogecoin,0.195224,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-23 22:49:12,ETHUSDT,ethereum,3870.34,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 22:49:39,DOGEUSDT,dogecoin,0.195434,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False

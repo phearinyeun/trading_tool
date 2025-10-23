@@ -154,15 +154,34 @@ def compute_levels(price, signal):
     return entry, sl, tp1, tp2
 
 # ===============================
-# 6️⃣ Generate Price Chart
+# 6️⃣ Generate Price Chart with Arrows
 # ===============================
-def generate_chart(tv_symbol, prices, entry, sl, tp1, tp2):
-    plt.figure(figsize=(8,4))
+def generate_chart(tv_symbol, prices, entry, sl, tp1, tp2, signals=None):
+    """
+    signals: list of tuples (index, 'BUY'/'SELL') to plot arrows
+    """
+    plt.figure(figsize=(10,5))
     plt.plot(list(prices), label='Price', color='blue')
+
+    # Draw levels
     plt.axhline(entry, color='green', linestyle='--', label='Entry')
     plt.axhline(sl, color='red', linestyle='--', label='SL')
     plt.axhline(tp1, color='orange', linestyle='--', label='TP1')
     plt.axhline(tp2, color='purple', linestyle='--', label='TP2')
+
+    # Plot BUY/SELL arrows
+    if signals:
+        for idx, signal in signals:
+            price = list(prices)[idx]
+            if signal == "BUY":
+                plt.annotate('BUY', xy=(idx, price), xytext=(idx, price*0.995),
+                             arrowprops=dict(facecolor='green', shrink=0.05),
+                             fontsize=10, color='green')
+            elif signal == "SELL":
+                plt.annotate('SELL', xy=(idx, price), xytext=(idx, price*1.005),
+                             arrowprops=dict(facecolor='red', shrink=0.05),
+                             fontsize=10, color='red')
+
     plt.title(f"{tv_symbol} Price Chart")
     plt.xlabel("Candles")
     plt.ylabel("Price")
@@ -216,14 +235,19 @@ def analyze_symbol(coin_symbol, tv_symbol):
     else:
         expected_profit1 = expected_profit2 = 0
 
-    # ===============================
-    # ✅ Jakarta timezone-aware
-    # ===============================
-    jakarta_time = datetime.now(timezone.utc) + JAKARTA_OFFSET
+    # Jakarta timezone-aware
+    jakarta_time = datetime.now(timezone.utc) + timedelta(hours=7)
 
     # Reset targets if signal changed
     if last_signals[tv_symbol] != decision:
         active_targets[tv_symbol] = {"tp1_sent": False, "tp2_sent": False, "sl_sent": False}
+
+    # Collect signals for plotting arrows
+    signals_to_plot = []
+    if decision == "BUY":
+        signals_to_plot.append((len(price_history[tv_symbol])-1, "BUY"))
+    elif decision == "SELL":
+        signals_to_plot.append((len(price_history[tv_symbol])-1, "SELL"))
 
     # Send alert if signal changed
     if last_signals[tv_symbol] != decision:
@@ -246,7 +270,7 @@ def analyze_symbol(coin_symbol, tv_symbol):
     TP2: {tp2} (~{expected_profit2:.2f}%)
 ⏹️ <b>Suggested Exit:</b> {decision if decision=="HOLD" else "Follow levels"}
 """
-        chart_file = generate_chart(tv_symbol, price_history[tv_symbol], entry, sl, tp1, tp2)
+        chart_file = generate_chart(tv_symbol, price_history[tv_symbol], entry, sl, tp1, tp2, signals=signals_to_plot)
         send_telegram_image(chart_file, caption=msg)
         last_signals[tv_symbol] = decision
         print(f"✅ Sent alert for {tv_symbol}: {decision}")
@@ -267,7 +291,7 @@ def analyze_symbol(coin_symbol, tv_symbol):
 # 8️⃣ Main Loop
 # ===============================
 def main():
-    print("🚀 Resilient Multi-Symbol Market Analyzer with Charts Started...")
+    print("🚀 Resilient Multi-Symbol Market Analyzer with Charts & Arrows Started...")
     while True:
         try:
             for coin, tv in zip(SYMBOLS, TV_SYMBOLS):
