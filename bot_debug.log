@@ -652,3 +652,309 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.coingecko.com
 2025-10-23 22:38:44,216 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
 2025-10-23 22:38:44,415 [WARNING] TV error for DOGEUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
 2025-10-23 22:38:46,823 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:07,446 [INFO] Pro Trader Bot (live-profit) started.
+2025-10-23 23:13:08,227 [WARNING] TV error for ETHUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:09,627 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:12,177 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:16,633 [WARNING] TV error for ETHUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:18,049 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:20,436 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:25,657 [WARNING] TV error for ETHUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:27,988 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:31,351 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:35,356 [INFO] ETHUSDT changed to HOLD
+2025-10-23 23:13:36,628 [WARNING] TV error for DOGEUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:39,008 [WARNING] TV error for DOGEUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:42,351 [WARNING] TV error for DOGEUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:47,638 [WARNING] TV error for DOGEUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:49,816 [WARNING] TV error for DOGEUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:53,160 [WARNING] TV error for DOGEUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:13:58,316 [WARNING] TV error for DOGEUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:14:00,519 [WARNING] TV error for DOGEUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:14:03,942 [WARNING] TV error for DOGEUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:14:07,946 [INFO] DOGEUSDT changed to HOLD
+2025-10-23 23:22:16,648 [INFO] Pro Trader Bot (live-profit) started.
+2025-10-23 23:30:50,123 [INFO] 🚀 Pro Trader Bot started
+2025-10-23 23:30:51,252 [WARNING] ⚠️ TV 429 / error for %s attempt %d: wait %.1fs | %s | (failed to format args)
+2025-10-23 23:30:56,781 [WARNING] ⚠️ TV 429 / error for %s attempt %d: wait %.1fs | %s | (failed to format args)
+2025-10-23 23:33:22,759 [INFO] Pro Trader Bot started
+2025-10-23 23:33:24,534 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 1.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:26,033 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 2.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:28,404 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 4.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:33,109 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 1.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:35,083 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 2.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:37,767 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 4.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:42,232 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 1.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:43,813 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 2.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:46,309 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 4.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:50,950 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 1: wait 1.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:52,378 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 2: wait 2.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:54,834 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 3: wait 4.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:33:59,269 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 1: wait 1.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:34:00,859 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 2: wait 2.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:34:03,300 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 3: wait 4.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:34:07,768 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 1: wait 1.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:34:09,168 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 2: wait 2.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:34:11,616 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 3: wait 4.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:38:03,577 [INFO] ✅ Bot started successfully!
+2025-10-23 23:38:03,578 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 10.0s | Can't access TradingView API
+2025-10-23 23:38:03,578 [ERROR] ❌ Trade failed for BTCUSDT due to unexpected price change
+2025-10-23 23:40:52,833 [INFO] ✅ Pro Trader Bot started
+2025-10-23 23:40:52,834 [ERROR] ❌ Analyze error for ETHUSDT: name 'analyze_symbol' is not defined
+2025-10-23 23:40:52,834 [ERROR] ❌ Analyze error for DOGEUSDT: name 'analyze_symbol' is not defined
+2025-10-23 23:44:58,664 [INFO] ✅ Pro Trader Bot started
+2025-10-23 23:44:59,537 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:45:04,929 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:45:15,398 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:45:35,803 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:46:16,246 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:47:36,458 [INFO] ✅ Pro Trader Bot started
+2025-10-23 23:47:37,172 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:47:42,524 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:47:52,925 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:48:13,452 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-23 23:48:53,889 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:00:15,672 [INFO] ✅ Pro Trader Bot started
+2025-10-24 00:00:16,613 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:00:21,991 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:00:32,598 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:00:53,249 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:01:33,896 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:02:54,610 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:03:00,150 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:03:11,011 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:03:31,624 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:04:12,393 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:05:32,823 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:05:38,162 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:05:48,570 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:06:09,052 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:07:36,535 [INFO] ✅ Pro Trader Bot started
+2025-10-24 00:07:37,501 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:07:42,951 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:07:53,425 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:09:14,643 [INFO] ✅ Pro Trader Bot started
+2025-10-24 00:09:15,592 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:09:20,924 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:09:31,637 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:09:52,063 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:10:32,474 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:11:52,879 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:11:58,233 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:12:08,890 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:12:29,261 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:13:09,667 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:28:21,938 [INFO] ✅ Pro Trader Bot started
+2025-10-24 00:28:23,744 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:28:29,285 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:28:40,289 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:29:01,353 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:29:42,138 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:31:02,732 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:31:08,388 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:31:18,908 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:31:39,487 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:32:20,005 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:33:40,820 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:33:46,812 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:33:57,724 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:34:18,495 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:34:59,225 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:36:20,970 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:36:26,803 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:36:37,677 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:36:58,490 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:37:39,225 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:38:59,898 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:39:05,577 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:39:16,417 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:39:36,987 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:40:17,779 [WARNING] ⚠️ TV 429 / error for DOGEUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:40:41,909 [INFO] ✅ Pro Trader Bot started
+2025-10-24 00:40:42,846 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:40:49,971 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:41:00,605 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:41:23,297 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:42:04,563 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 5: wait 80.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:43:26,326 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 1: wait 5.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:43:32,767 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 2: wait 10.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:43:44,937 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 3: wait 20.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:44:06,446 [WARNING] ⚠️ TV 429 / error for ETHUSDT attempt 4: wait 40.0s | Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 00:46:46,394 [INFO] ✅ Pro Trader Bot started (CoinGecko + pandas-ta)
+2025-10-24 00:46:46,993 [ERROR] Unexpected error in main loop: '>' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 318, in main
+    analyze_symbol(coin)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 247, in analyze_symbol
+    signal, reason = generate_signal(df)
+                     ~~~~~~~~~~~~~~~^^^^
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 143, in generate_signal
+    if latest["ema20"] > latest["ema50"] and latest["rsi"] < 70:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'float' and 'NoneType'
+2025-10-24 00:48:41,449 [INFO] ✅ Pro Trader Bot started
+2025-10-24 00:48:41,846 [ERROR] Unexpected error in main loop: '>' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 279, in main
+    analyze_symbol(coin_id)
+    ~~~~~~~~~~~~~~^^^^^^^^^
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 244, in analyze_symbol
+    signal, reason = generate_signal(df)
+                     ~~~~~~~~~~~~~~~^^^^
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 145, in generate_signal
+    if latest["ema20"] > latest["ema50"] and latest["rsi"] < 70:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'float' and 'NoneType'
+2025-10-24 00:48:57,044 [INFO] ✅ Pro Trader Bot started
+2025-10-24 00:48:57,401 [ERROR] Unexpected error in main loop: '>' not supported between instances of 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 279, in main
+    analyze_symbol(coin_id)
+    ~~~~~~~~~~~~~~^^^^^^^^^
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 244, in analyze_symbol
+    signal, reason = generate_signal(df)
+                     ~~~~~~~~~~~~~~~^^^^
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 145, in generate_signal
+    if latest["ema20"] > latest["ema50"] and latest["rsi"] < 70:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'float' and 'NoneType'
+2025-10-24 00:52:22,216 [INFO] ✅ Pro Trader Bot started
+2025-10-24 00:52:22,722 [ERROR] Unexpected error in main loop: must be real number, not NoneType
+Traceback (most recent call last):
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 286, in main
+    analyze_symbol(coin_id)
+    ~~~~~~~~~~~~~~^^^^^^^^^
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 248, in analyze_symbol
+    signal, reason = generate_signal(df)
+                     ~~~~~~~~~~~~~~~^^^^
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 144, in generate_signal
+    if any(math.isnan(v) for v in [latest["ema20"], latest["ema50"], latest["rsi"]]):
+       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 144, in <genexpr>
+    if any(math.isnan(v) for v in [latest["ema20"], latest["ema50"], latest["rsi"]]):
+           ~~~~~~~~~~^^^
+TypeError: must be real number, not NoneType
+2025-10-24 00:54:24,337 [INFO] ✅ Pro Trader Bot started
+2025-10-24 00:58:09,082 [INFO] ✅ Pro Trader Bot Multi-TF started
+2025-10-24 00:58:10,624 [ERROR] CoinGecko OHLC error for dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/ohlc?vs_currency=usd&days=1
+Traceback (most recent call last):
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 102, in get_ohlc
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\phearin.yeun\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/ohlc?vs_currency=usd&days=1
+2025-10-24 00:58:10,670 [ERROR] CoinGecko OHLC error for dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/ohlc?vs_currency=usd&days=7
+Traceback (most recent call last):
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 102, in get_ohlc
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\phearin.yeun\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/ohlc?vs_currency=usd&days=7
+2025-10-24 00:58:10,715 [ERROR] CoinGecko OHLC error for dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/ohlc?vs_currency=usd&days=30
+Traceback (most recent call last):
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 102, in get_ohlc
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\phearin.yeun\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/ohlc?vs_currency=usd&days=30
+2025-10-24 00:58:10,760 [ERROR] CoinGecko OHLC error for dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/ohlc?vs_currency=usd&days=1
+Traceback (most recent call last):
+  File "d:\Development\trading_tool\pro_trader_bot_v3.py", line 102, in get_ohlc
+    r.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\phearin.yeun\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/ohlc?vs_currency=usd&days=1
+2025-10-24 01:01:07,604 [INFO] ✅ Pro Trader Bot started
+2025-10-24 01:01:08,316 [WARNING] CoinGecko OHLC error for dogecoin: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/dogecoin/ohlc?vs_currency=usd&days=30
+2025-10-24 01:08:44,109 [INFO] ✅ Pro Trader Bot started
+2025-10-24 01:08:44,981 [INFO] Opened trade: ethereum SELL @ 3889.31
+2025-10-24 01:08:53,510 [WARNING] CoinGecko 429 Too Many Requests for dogecoin
+2025-10-24 01:10:34,645 [INFO] Pro Trader Bot (live-profit) started.
+2025-10-24 01:10:35,661 [WARNING] TV error for ETHUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:10:37,014 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:10:39,408 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:10:43,740 [WARNING] TV error for ETHUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:10:45,073 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:10:47,449 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:19:51,377 [INFO] Pro Trader Bot (modular) started.
+2025-10-24 01:19:52,440 [WARNING] TV error for ETHUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:19:53,804 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:19:56,134 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:00,519 [WARNING] TV error for ETHUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:01,894 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:04,257 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:15,774 [INFO] Pro Trader Bot (modular) started.
+2025-10-24 01:20:16,555 [WARNING] TV error for ETHUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:17,990 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:20,316 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:24,718 [WARNING] TV error for ETHUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:26,054 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:28,395 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:33,152 [WARNING] TV error for ETHUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:34,772 [WARNING] TV error for ETHUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:37,470 [WARNING] TV error for ETHUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:42,093 [WARNING] TV error for DOGEUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:43,823 [WARNING] TV error for DOGEUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:46,524 [WARNING] TV error for DOGEUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:51,537 [WARNING] TV error for DOGEUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:53,515 [WARNING] TV error for DOGEUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:20:56,293 [WARNING] TV error for DOGEUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:21:01,557 [WARNING] TV error for DOGEUSDT attempt 1: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:21:03,613 [WARNING] TV error for DOGEUSDT attempt 2: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:21:06,452 [WARNING] TV error for DOGEUSDT attempt 3: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:26:21,836 [INFO] Pro Trader Bot (async) started.
+2025-10-24 01:26:22,594 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:26:22,616 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:26:22,639 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:26:22,771 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:26:22,804 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:26:22,948 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:31:23,753 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:31:23,761 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:31:23,789 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:31:24,034 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:31:24,042 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:31:24,375 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:36:25,615 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:36:25,623 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:36:25,628 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:36:25,630 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:36:25,658 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:36:26,380 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:41:27,550 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:41:27,559 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:41:27,561 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:41:27,567 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:41:27,572 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:41:28,148 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:46:29,230 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:46:29,234 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:46:29,255 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:46:29,289 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:46:29,297 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:46:29,815 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:51:30,810 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:51:30,827 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:51:30,839 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:51:30,939 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:51:30,945 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:51:31,398 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:56:32,216 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:56:32,221 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:56:32,231 [WARNING] TV error for DOGEUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:56:32,394 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:56:32,411 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 01:56:32,849 [WARNING] TV error for ETHUSDT: Can't access TradingView's API. HTTP status code: 429. Check for invalid symbol, exchange, or indicators.
+2025-10-24 09:27:54,111 [INFO] Pro Trader Bot (live-profit) started.
+2025-10-24 09:27:57,618 [INFO] Opened trade: ETHUSDT SELL @ 3881.97
+2025-10-24 09:28:03,554 [INFO] DOGEUSDT changed to HOLD
+2025-10-24 11:20:22,650 [INFO] Pro Trader Bot (async) started.
+2025-10-24 11:28:35,441 [INFO] Pro Trader Bot (live-profit) started.
+2025-10-24 11:28:39,966 [INFO] ETHUSDT changed to HOLD
+2025-10-24 11:28:43,444 [INFO] DOGEUSDT changed to HOLD
+2025-10-24 11:35:08,027 [INFO] Pro Trader Bot (Pro Signals) started.

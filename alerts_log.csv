@@ -92,3 +92,35 @@ timestamp,symbol,coin,price,decision,reason
 2025-10-23 22:48:31,DOGEUSDT,dogecoin,0.195224,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
 2025-10-23 22:49:12,ETHUSDT,ethereum,3870.34,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
 2025-10-23 22:49:39,DOGEUSDT,dogecoin,0.195434,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 23:13:35,ETHUSDT,ethereum,3872.3,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 23:14:07,DOGEUSDT,dogecoin,0.195563,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 23:30:12,ETHUSDT,ethereum,3876.82,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-23 23:33:50,ETHUSDT,ethereum,3877.33,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.00,,
+2025-10-23 23:34:15,DOGEUSDT,dogecoin,0.195381,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.00,,
+2025-10-23 23:47:09,ETHUSDT,ethereum,3883.17,HOLD,Sideways market.
+2025-10-24 01:20:41,ETHUSDT,ethereum,3897.87,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-24 01:21:10,DOGEUSDT,dogecoin,0.196453,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-24 01:26:22,ETHUSDT,ethereum,3891.13,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-24 01:26:22,DOGEUSDT,dogecoin,0.196466,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-24 01:31:23,ETHUSDT,ethereum,3887.82,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-24 01:31:24,DOGEUSDT,dogecoin,0.196489,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-24 01:36:25,ETHUSDT,ethereum,3882.79,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bearish sequence",0.000000,False,False
+2025-10-24 01:36:26,DOGEUSDT,dogecoin,0.196312,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-24 01:41:27,ETHUSDT,ethereum,3876.55,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bearish sequence",0.000000,False,False
+2025-10-24 01:41:28,DOGEUSDT,dogecoin,0.196121,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bearish sequence",0.000000,False,False
+2025-10-24 01:46:29,ETHUSDT,ethereum,3876.48,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-24 01:46:29,DOGEUSDT,dogecoin,0.196114,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-24 01:51:30,ETHUSDT,ethereum,3866.11,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bearish sequence",0.000000,False,False
+2025-10-24 01:51:31,DOGEUSDT,dogecoin,0.19578,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Bearish sequence",0.000000,False,False
+2025-10-24 01:56:32,DOGEUSDT,dogecoin,0.195789,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern Doji",0.000000,False,False
+2025-10-24 01:56:32,ETHUSDT,ethereum,3873.83,HOLD,"MultiTF ['HOLD', 'HOLD', 'HOLD'] + pattern NONE",0.000000,False,False
+2025-10-24 09:27:57,ETHUSDT,ethereum,3881.97,SELL,"MultiTF ['BUY', 'SELL', 'SELL'] + pattern NONE",1.000008,False,False
+2025-10-24 09:28:03,DOGEUSDT,dogecoin,0.194953,HOLD,"MultiTF ['NEUTRAL', 'NEUTRAL', 'SELL'] + pattern NONE",0.000000,False,False
+2025-10-24 11:20:24,ETHUSDT,ethereum,3900.31,HOLD,"MultiTF ['BUY', 'NEUTRAL', 'SELL'] + pattern NONE",0.000000,False,False
+2025-10-24 11:20:25,DOGEUSDT,dogecoin,0.195681,HOLD,"MultiTF ['BUY', 'NEUTRAL', 'SELL'] + pattern NONE",0.000000,False,False
+2025-10-24 11:28:39,ETHUSDT,ethereum,3917.53,HOLD,"MultiTF ['STRONG_BUY', 'BUY', 'SELL'] + pattern NONE",0.000000,False,False
+2025-10-24 11:28:43,DOGEUSDT,dogecoin,0.196318,HOLD,"MultiTF ['STRONG_BUY', 'BUY', 'SELL'] + pattern NONE",0.000000,False,False
+2025-10-24 11:35:10,DOGEUSDT,dogecoin,0.19707,HOLD,"MultiTF ['BUY', 'BUY', 'SELL'] + pattern NONE",0.000000
+2025-10-24 11:35:10,ETHUSDT,ethereum,3930.63,HOLD,"MultiTF ['BUY', 'BUY', 'SELL'] + pattern NONE",0.000000
+2025-10-24 11:42:05,DOGEUSDT,dogecoin,0.197315,BUY,Sideways market,0.999924
+2025-10-24 11:42:06,ETHUSDT,ethereum,3949.0,BUY,Sideways market,1.000000
